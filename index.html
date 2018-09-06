@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="img/barcelona.png" />
+  <title>FC Barcelona</title>
+<script type="text/javascript" src="bundle.js"></script></head>
+<body id="top">
+  <header class="fixed-top">
+     <img class="img-fluid"id="logo" src="img/fcb.png">
+  <nav class="navbar navbar-expand-md  navbar-dark">
+       
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a  href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a href="#squad">Squad</a>
+      </li>
+      <li class="nav-item active">
+        <a  href="#Tickets">Tickets</a>
+      </li>
+      <li class="nav-item active">
+        <a  href="#Sign In">Sign In</a>
+      </li> 
+      
+      <li class="nav-item active">
+        <a  href="#Shop">Shop</a>
+      </li> 
+      <li class="nav-item active">
+        <a  href="#contact">Contact</a>
+      </li>     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success active my-2 my-sm-0" type="submit"data-toggle="modal" data-target="#mymod">Search</button>
+      </form>
+  </div>  
+</nav>
+</header>
+ <div class="jumbotron">
+  <div class="mock"></div>
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="vid.mp4"></iframe>
+  </div>
+  
+  </div>
+
+          
+
+
+<div class="login" class="container" id="Sign In">
+  
+         <form class="form-horizontal" role="form" method="POST" action="/login">
+            <div class="card-group">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h2>Please Login</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-group has-danger">
+                        <label class="sr-only" for="email">E-Mail Address</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" ><i class="fa fa-at"></i></div>
+                            <input type="text" name="email" class="form-control" id="email"
+                                   placeholder="you@example.com" required autofocus>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card-group">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="sr-only" for="password">Password</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                            <div class="input-group-addon" ><i class="fa fa-key"></i></div>
+                            <input type="password" name="password" class="form-control" id="password"
+                                   placeholder="Password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-control-feedback">
+                        <span class="text-danger align-middle">
+                        
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="col-md-3"></div>
+                <div class="col-md-6" >
+                    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="remember"
+                                   type="checkbox" >
+                            <span>Remember me</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-success"data-toggle="modal"data-target="#mymod"><i class="fa fa-sign-in"></i> Login</button>
+                    <a class="btn btn-link" data-toggle="modal"href="#mymod">Forgot Your Password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+   <div id="Tickets">
+      <div id="Tic" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#Tic" data-slide-to="0" class="active"></li>
+    <li data-target="#Tic" data-slide-to="1"></li>
+    
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img  class="img-fluid" class="img-responsive"src="img/11.jpg"  alt="First Match">
+      <div class="carousel-caption">
+    <h3>
+      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit" data-toggle="modal"data-target="#mymod">
+        Buy Now
+      </button>
+    </h3>
+    <p>Just CLick on it!! to get</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img  class="img-fluid" class="img-responsive"src="img/10.jpg"  alt="2nd Match">
+      <div class="carousel-caption">
+    <h3>
+      <button class="btn btn-danger-outline my-2 my-sm-0" type="submit"data-toggle="modal" data-target="#mymod">
+      Buy Now
+    </button>
+    </h3>
+    <p>Just CLick on it!! to get</p>
+  </div>
+    </div>
+    
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#Tic" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#Tic" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+  </div>
+   </div>
+
+   <div class="team" class="container"id="squad">
+      <div class="card ">
+    <div class="card-body"><h3 class="text-center">Squad</h3></div>
+  </div>
+  <div class="card-group">
+  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/1.jpg" alt="TEr Setegen">
+    
+    <h4 class="card-title">Ter Stegen</h4>
+    <p class="card-text">Goal Keeper</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/2.jpg" alt="Nelson Semedo">
+    <h4 class="card-title">Nelson semedo</h4>
+    <p class="card-text">Defender</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div> 
+ <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/3.jpg" alt="Pique">
+    <h4 class="card-title">Pique</h4>
+    <p class="card-text">Defender</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+
+<div class="card-group">
+  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/4.jpg" alt="Rakitic">
+    <h4 class="card-title">Rakitic</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/5.jpg" alt="Sergio Busquests">
+    <h4 class="card-title">Sergio Busquets</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/6.jpg" alt="Suarez">
+    <h4 class="card-title">Denis Suarez</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+<div class="card-group">
+  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/7.jpg" alt="Coutinho">
+    <h4 class="card-title">Coutinho</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/8.jpg" alt="Athur">
+    <h4 class="card-title">Athur</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/9.jpg" alt="Suarez">
+    <h4 class="card-title">Luis Suarez</h4>
+    <p class="card-text">Forward</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+<div class="card-group">
+  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/10.jpg" alt="Lionel Messi">
+    <h4 class="card-title">Lionel Messi</h4>
+    <p class="card-text">Forward</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/11.jpg" alt="Dembelle">
+    <h4 class="card-title">Dembelle</h4>
+    <p class="card-text">Forward</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/12.jpg" alt="Rafinha">
+    <h4 class="card-title">Rafinha</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+<div class="card-group">
+  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/14.jpg" alt="Manlcom">
+    <h4 class="card-title">Malcom</h4>
+    <p class="card-text">Forward</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/16.jpg" alt="Samper">
+    <h4 class="card-title">Samper</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  <div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/18.jpg" alt="Jordi ALba">
+    <h4 class="card-title">Jordi Alba</h4>
+    <p class="card-text">Defender</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+
+<div class="card-group">
+  <div class="card" class="clm-md-4">
+ 
+  <div class="card-body" >
+     <img class="card-img-top" src="img/players/20.jpg" alt="Roberto">
+    <h4 class="card-title">S.Roberto</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+<div class="card" class="clm-md-4">
+  
+  <div class="card-body" >
+    <img class="card-img-top" src="img/players/22.jpg" alt="Vidal">
+    <h4 class="card-title">Vidal</h4>
+    <p class="card-text">Midfielder</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  <div class="card" class="clm-md-4">
+  
+  <div class="card-body"  >
+    <img class="card-img-top" src="img/players/23.jpg" alt="Umtiti">
+    <h4 class="card-title">Umtiti</h4>
+    <p class="card-text">Defender</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>  
+  
+</div>
+</div> 
+  <div id="Shop" class="container-fluid">
+    <div class="card bg-light text-dark">
+    <div class="card-body"><h3 class="text-center">Shop</h3></div>
+  </div>
+
+    <div class="row"id="showw">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/jer.jpg" class="img-fluid" alt="Barcelona Jersey" >
+          <p><strong>Barcelona Jersey</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/shoe.jpg" class="img-fluid" alt="Shoe" >
+          <p><strong>Soccer Shoe</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/football.jpg"class="img-fluid" alt="Foot ball" >
+          <p><strong>Foot Ball</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#mymod">Buy</button>
+        </div>
+      </div>
+    </div> 
+  </div> 
+
+
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p>Arístides Maillol s/n, 08028 Barcelona </p>
+      <p>Phone: (+34) 902 1899 00</p>
+      <p>Email: oab@fcbarcelona.cat</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" data-toggle="modal" data-target="#mymod">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="mymod" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Sorry!!</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>!!!!SITE IS UNDER MAINTENANCE!!!!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <footer class="text-center">
+      <ul class="foot">
+                  
+         <li class="social">
+           <a href="https://www.facebook.com/fcbarcelona" ><img src="img/1.png" alt="facebook"> </a>
+         </li>
+         <li class="social">
+           <a href="https://www.instagram.com/fcbarcelona/?hl=en"> 
+           	<img src="img/2.png" alt="instagram"> </a>
+         </li>
+         <li class="social">
+           <a href="https://twitter.com/fcbarcelona"> <img src="img/3.png" alt="twitter"> </a>
+         </li>
+         <li class="social">
+           <a href="https://plus.google.com/+FCBarcelona"> <img src="img/4.png" alt="google+"> </a>
+         </li>
+                </ul>
+                <br>
+  <h4>Football is like life 
+       </h4><h4>It requires perseverance, self-denial, hard work, sacrifice, dedication and respect for authority</h4>
+  <p>@Copyrights <a href="https://www.fcbarcelona.com" data-toggle="tooltip" title="Visit fcbarcelona">www.fcbarcelona.com</a></p> 
+</footer>
+</body>
+</html>
